@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Albums écoutés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mes Albums écoutés</h1>
+    <div id="album-form">
+        <input type="text" id="album-title" placeholder="Titre de l'album">
+        <input type="text" id="album-artist" placeholder="Artiste">
+        <input type="text" id="album-genre" placeholder="Genre">
+        <input type="number" id="album-rating" placeholder="Note">
+        <input type="number" id="album-year" placeholder="Année de sortie">
+        <button onclick="addAlbum()">Ajouter l'album</button>
+    </div>
+    <div id="albums-list"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
